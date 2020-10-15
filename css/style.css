@@ -118,7 +118,6 @@ div.text h1{
 /* /div.background_image */
 
 /* main */
-
 /* main_header */
 .main_header
 {
@@ -132,7 +131,7 @@ div.text h1{
 
 .main_header h3{
   text-align: center;
-  color: lightgrey;
+  color: grey;
   padding-top: 5px;
 }
 /* /main_header */
@@ -140,4 +139,78 @@ div.text h1{
 /* main row1 */
 .box_main1{
   width: calc(100% / 3);
+  height: 600px;
+  text-align: center;
+}
+
+#profilo, #doc{
+  width: 40%;
+  height: 265px;
+  padding-top: 50px;
+}
+
+#computer{
+  width: 65%;
+  height: 265px;
+  padding-top: 50px;
+}
+
+.box_main1 h2{
+  font-size: 1.5em;
+  color: #7CBB02;
+  padding: 25px 15px;
+}
+
+.box_main1 hr{
+  width: 30%;
+  margin: auto;
+}
+
+.box_main1 p{
+  font-size: 18px;
+  padding: 25px 15px;
+  line-height: 1.5em;
+  color: grey;
+}
+/* /main row1 */
+
+/* main row2 */
+.box_main2{
+  width: calc(100% / 2);
+  height: 600px;
+  padding: 50px;
+}
+
+.box_main2 h2{
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+.box_main2 p{
+  font-size: 1.5em;
+  padding: 25px 0;
+  line-height: 1.5em;
+  color: grey;
+}
+
+.box_main2 a{
+  color: blue;
+}
+/* /main row2 */
+/* /main */
+
+/* footer */
+footer{
+  height: 200px;
+  background: #D3D3D3;
+}
+
+.box_footer1{
+  
+}
+
+footer h2{
+  font-weight: 500;
+  font-size: 2.5em;
+  line-height: 200px;
 }
